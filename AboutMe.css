@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(131, 184, 131);
+}
+h1,h2 {
+color: aqua;
+font-family: 'Times New Roman', Times, serif;
+}
+strong {
+    color: yellow;
+}
+
+#Seli{
+    font-style: italic;
+}
+a:visited{
+    color: red;
+}
+h1{
+    font-weight: bold;
+}
+.list{
+    font-family: cursive;
+}
+.meda{
+    font-family: fantasy;
+}
