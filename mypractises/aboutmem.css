@@ -1,3 +1,14 @@
 body{
     background-color: rgb(131, 184, 131);
 }
+h2,h2{
+color: aqua;
+font-family: 'Times New Roman', Times, serif;
+}
+.italize{
+color: black;
+font-style: italic ; 
+}
+h1{
+    font-weight: bold;
+}
