@@ -7,7 +7,7 @@ body{
     background-image: url('/myFirstRepo/pieRecipes/silverware.jpg');
     background-repeat: repeat;
     background-position: center center;
-    background-attachment: fixed;
+    
     color: #404040;        
 }
 

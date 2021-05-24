@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Decorator</title>
+    <link href="decoratemytext.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8">
+
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!-- link to your script file here -->
+    <script src="decoratemytext.js"></script>
+    <!-- link to your script file here -->
+
+</head>
+<body>
+<h1>Text Decorator</h1>
+
+<div>
+    <img alt="very decorated!" src="decorated.gif"/>
+</div>
+
+<!-- Your UI controls go here -->
+<fieldset>
+    <legend>Text</legend>
+    <textarea cols="30" id="textarea" placeholder="Type your text here ..." rows="4">
+        Sample Item 1
+        Sample Item 2
+    </textarea>
+</fieldset>
+
+<fieldset>
+    <legend>Decoration</legend>
+    <input onclick="interval()" type="button" value="Bigger Decorations!"/> <br/> <br/>
+    <input id="bling" onchange="boldText()" type="checkbox" value="bling"/> Bling
+    <input onclick="pig()" type="button" value="Igpay Atinlay"/>
+    <input onclick="markov()" type="button" value="Malkovich"/>
+</fieldset>
+<div id="validation">
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamkahsai.github.io%2FmyFirstRepository%2Fdecorate.html">
+        <img alt="Validate" src="w3c-html.png"/>
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamkahsai.github.io%2FmyFirstRepository%2Fdecorate.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img alt="Valid CSS!" src="w3c-css.png"/>
+    </a>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamkahsai.github.io%2FmyFirstRepository%2Fdecorate.html">
+        <img src="w3c-js.jpg" alt="Valid JS" />
+    </a>
+
+</div>
+
+</body>
+</html>
