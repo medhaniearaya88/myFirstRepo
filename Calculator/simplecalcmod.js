@@ -1,0 +1,65 @@
+exports.add=function(req,res,vals){
+    var sum=parseInt(vals.fisrt)+parseInt(vals.second);
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.write("<!DOCTYPE html>");
+    res.write("<html>");
+    res.write("<head><meta charset=\"utf-8\">");
+    res.write("<title>Calculator Web Site</title>");
+    res.write("</head>");
+    res.write("<body>");
+    res.write("<p>The sum is: ");
+    res.write(String(sum));
+    res.write("</p>");
+    res.write("</body>");
+    res.write("</html>");
+    return res.end();
+};
+exports.subtract=function(req,res,vals){
+    var sub=parseInt(vals.fisrt)-parseInt(vals.second);
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.write("<!DOCTYPE html>");
+    res.write("<html>");
+    res.write("<head><meta charset=\"utf-8\">");
+    res.write("<title>Calculator Web Site</title>");
+    res.write("</head>");
+    res.write("<body>");
+    res.write("<p>The sum is: ");
+    res.write(String(sub));
+    res.write("</p>");
+    res.write("</body>");
+    res.write("</html>");
+    return res.end();
+};
+exports.multiply=function(req,res,vals){
+    var mul=parseInt(vals.fisrt)*parseInt(vals.second);
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.write("<!DOCTYPE html>");
+    res.write("<html>");
+    res.write("<head><meta charset=\"utf-8\">");
+    res.write("<title>Calculator Web Site</title>");
+    res.write("</head>");
+    res.write("<body>");
+    res.write("<p>The sum is: ");
+    res.write(String(mul));
+    res.write("</p>");
+    res.write("</body>");
+    res.write("</html>");
+    return res.end();
+};
+exports.division=function(req,res,vals){
+    var div=parseInt(vals.fisrt)/parseInt(vals.second);
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.write("<!DOCTYPE html>");
+    res.write("<html>");
+    res.write("<head><meta charset=\"utf-8\">");
+    res.write("<title>Calculator Web Site</title>");
+    res.write("</head>");
+    res.write("<body>");
+    res.write("<p>The sum is: ");
+    res.write(String(div));
+    res.write("</p>");
+    res.write("</body>");
+    res.write("</html>");
+    return res.end();
+};
+exports.dispaly
