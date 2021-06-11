@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html>
+ <head><meta charset="utf-8"/>
+ <title>My Savings Account</title>
+ </head>
+ <body>
+ <h1>First Federal Savings Bank</h1>
+ <br>
+ <br>
+ <form action = "http://localhost:5000/" method="POST">
+ <div>
+ <fieldset>
+ <legend>Savings Account Information</legend>
+ Name
+ <input type = "text" name="user"/>
+ Account Number
+ <input type = "text" name="account"/>
+ Amount
+ <input type = "text" name="amount"/>
+ Operation
+ <select name="operation">
+ <option>deposit</option>
+ <option>withdraw</option>
+ <option>balance</option>
+ <option>new</option>
+ </select>
+ </fieldset>
+ <br>
+ <input type="submit" value="Execute Operation"/>
+ <input type="reset" value= "Clear"
+ </div>
+ </form>
+ </body>
+ </html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <form action="http://localhost:5001/getCustomer" method="POST">
+        name: <input type="text" id="name"> <br>
+        number:<input type="number" id="number"><br>
+        balance: <input type="number" id="balance">
+        <input id="btn" type="submit" value="create"><br>
+    </form>
+    <div id="result">
+
+    </div>
+    <div>
+        <img src="photos/giphy.gif" alt="loader" id="loader">
+    </div>
+</body>
+</html> -->

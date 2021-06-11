@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAP Online Dictionary </title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/jquery-3.6.0.js"></script>
+  <script src="scripts/index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>WAP Online Dictionary</h1>
+  </header>
+
+  <div id="form-div">
+    <form action="http://localhost:5000/getAll" method="POST">
+    Term: <input type="text" class="intext" id="term" name="input">
+    <input type="submit" value="Look Up" id="btn"><br>
+    </form>
+  </div>
+
+  <ol id="displayresult">
+
+  </ol>
+
+  <footer>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgmtma.github.io%2FMyWapAssignment%2F"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+      alt="html validator" /></a>
+      <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgmtma.github.io%2FMyWapAssignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png"
+          alt="html validator" /></a>
+          <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgmtma.github.io%2FMyWapAssignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png"
+            alt="html validator" /></a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html>
+ <head><meta charset="utf-8"/>
+ <title>My Savings Account</title>
+ </head>
+ <body>
+ <h1>First Federal Savings Bank</h1>
+ <br>
+ <br>
+ <form action = "http://localhost:5000/" method="POST">
+ <div>
+ <fieldset>
+ <legend>Savings Account Information</legend>
+ Name
+ <input type = "text" name="user"/>
+ Account Number
+ <input type = "text" name="account"/>
+ Amount
+ <input type = "text" name="amount"/>
+ Operation
+ <select name="operation">
+ <option>deposit</option>
+ <option>withdraw</option>
+ <option>balance</option>
+ <option>new</option>
+ </select>
+ </fieldset>
+ <br>
+ <input type="submit" value="Execute Operation"/>
+ <input type="reset" value= "Clear"
+ </div>
+ </form>
+ </body>
+ </html>

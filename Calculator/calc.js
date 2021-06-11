@@ -23,14 +23,14 @@ http.createServer(function (req,res) {
             simplecalcmod.division(req,res,q.query);
         }
 
-    }else fs.readFile(filename,function(err,data){
-        if (err){
+    }else fs.readFile(filename,function(err,data)
+    {if (err){
             res.writeHead(404,{'Content_Type':'text/html'});
             return res.end('404 Not Found');
         }
         res.writeHead(200);
         res.write(data);
         return res.end();
-    });
+});
     
 }).listen(8080);
